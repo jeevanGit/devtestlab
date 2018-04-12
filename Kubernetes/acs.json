@@ -199,6 +199,8 @@
         "orchestratorType": "[parameters('orchestratorType')]",
         "sshRSAPublicKey": "[parameters('sshRSAPublicKey')]",
         "enableDiagnostics": "[parameters('enableDiagnostics')]",
+        "servicePrincipalClientId": "[parameters('servicePrincipalClientId')]",
+        "servicePrincipalClientSecret": "[parameters('servicePrincipalClientSecret')]",
         "useServicePrincipalDictionary": {
             "DCOS": 0,
             "Swarm": 0,

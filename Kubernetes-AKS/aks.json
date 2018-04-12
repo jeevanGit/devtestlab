@@ -149,11 +149,11 @@
         },
         "aksRegion": {
             "type": "string",
-            "defaultValue": "canadacentral",
+            "defaultValue": "westeurope",
             "allowedValues": [
-                "eastus2",
-                "canadacentral",
-                "canadaeast"
+                "westeurope",
+                "eastus",
+                "westus2"
             ],
             "metadata": {
                 "description": "Azure region for AKS deployment."
