@@ -27,10 +27,10 @@
         },
         "aksRegionDTL": {
             "type": "string",
-            "defaultValue": "canadacentral",
+            "defaultValue": "westeurope",
             "allowedValues": [
-                "canadacentral",
-                "eastus2",
+                "westeurope",
+                "eastus",
                 "westus2"
             ],
             "metadata": {
