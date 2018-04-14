@@ -243,7 +243,7 @@
         {
             "apiVersion": "2017-01-31",
             "type": "Microsoft.ContainerService/containerServices",
-            "location": "eastus2",
+            "location": "canadacentral",
             "name": "[variables('resourceName')]",
             "properties": {
                 "orchestratorProfile": {
