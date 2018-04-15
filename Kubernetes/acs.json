@@ -248,7 +248,7 @@
             "properties": {
                 "orchestratorProfile": {
                     "orchestratorType": "[variables('orchestratorType')]",
-                    "orchestratorVersion": "1.7.7"
+                    "orchestratorVersion": "1.8.1"
                 },
                 "masterProfile": {
                     "count": "[variables('masterCount')]",
