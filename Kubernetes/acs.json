@@ -247,7 +247,8 @@
             "name": "[variables('resourceName')]",
             "properties": {
                 "orchestratorProfile": {
-                    "orchestratorType": "[variables('orchestratorType')]"
+                    "orchestratorType": "[variables('orchestratorType')]",
+                    "orchestratorVersion": "1.7.7"
                 },
                 "masterProfile": {
                     "count": "[variables('masterCount')]",
