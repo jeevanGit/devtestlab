@@ -16,10 +16,11 @@
         },
         "kubernetesVersionDTL": {
             "type": "string",
-            "defaultValue": "1.7.7",
+            "defaultValue": "1.9.3",
             "allowedValues": [
                 "1.7.7",
-                "1.8.1"
+                "1.8.1",
+                "1.9.3"
             ],
             "metadata": {
                 "description": "The version of Kubernetes."
