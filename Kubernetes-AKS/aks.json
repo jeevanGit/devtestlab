@@ -189,7 +189,8 @@
                         "count": "[variables('agentCount')]",
                         "vmSize": "[variables('agentVMSize')]",
                         "osType": "[variables('osType')]",
-                        "storageProfile": "ManagedDisks"
+                        "storageProfile": "ManagedDisks",
+                        "vnetSubnetID": "/subscriptions/e39b9baa-50b5-4665-8297-2fa801ed1fa4/resourceGroups/td-direct-eastus/providers/Microsoft.Network/virtualNetworks/td-vnet-poc/subnets/agent-vnet"
                     }
                 ],
                 "linuxProfile": {
